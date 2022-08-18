@@ -1,0 +1,62 @@
+{
+  "plumbers": [
+    {
+      "id": 1,
+      "name": "Maude"
+    },
+    {
+      "id": 2,
+      "name": "Merle"
+    }
+  ],
+  "completions": [
+    {
+      "id": 1,
+      "requestId": 2,
+      "plumberId": 2,
+      "date_completed": 5555551515
+    },
+    {
+      "requestId": 2,
+      "plumberId": 1,
+      "date_completed": 1660852980972,
+      "id": 2
+    },
+    {
+      "requestId": 1,
+      "plumberId": 1,
+      "date_completed": 1660852992422,
+      "id": 3
+    }
+  ],
+  "requests": [
+    {
+      "description": "Clogged with paint",
+      "address": "1234 Seventh St. ",
+      "budget": "2000",
+      "neededBy": "2022-08-30",
+      "id": 1
+    },
+    {
+      "description": "It exploded!",
+      "address": "444 Export Way",
+      "budget": "10000",
+      "neededBy": "2022-09-14",
+      "id": 2
+    },
+    {
+      "description": "Cat in the drain!",
+      "address": "111 Wallaby Way ",
+      "budget": "200",
+      "neededBy": "2022-09-29",
+      "id": 3
+    },
+    {
+      "description": "Vampire Bat in faucet",
+      "address": "666 Blood Ln",
+      "budget": "666",
+      "neededBy": "2022-10-31",
+      "id": 4
+    }
+  ]
+}
